@@ -57,12 +57,7 @@ export default function Servicos() {
                   <p className="mt-2 text-lg font-serif text-green-700">
                     R$ {Number(servico.valor).toFixed(2)}
                   </p>
-
-                  <button
-                    className="mt-4 w-full rounded py-2 bg-emerald-800 text-white font-serif transition-colors hover:bg-emerald-900"
-                  >
-                    Agendar
-                  </button>
+                  
                 </div>
               ))}
             </div>
